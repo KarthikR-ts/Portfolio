@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="Home">
+        <img src="imgs/iron-man.jpg" alt="Iron Man" />
+        <h1>Hi! 👋 <br> I'm Karthik Revankar</h1>
+        <p>Have a look at my portfolio.</p>
+    </section>
+
+    <section id="About">
+        <h1>About Me</h1>
+        <p>A newbie developer trying to learn new things and explore new stuff. <br>Learning to be the best I can.</p>
+    </section>
+
+    <section id="Education">
+        <h1>Education</h1>
+        <div class="cards">
+            <div>
+                <h1>School</h1>
+                <p>Chinmaya Vidyalaya(CBSE)</p>
+            </div>
+            <div>
+                <h1>High-School</h1>
+                <p>Base P.U College</p>
+            </div>
+            <div>
+                <h1>Engineering</h1>
+                <p>RVCE</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <div>
+            <p>HTML</p>
+        </div>
+        <div>
+            <p>CSS</p>
+        </div>
+        <div>
+            <p>C/C++</p>
+        </div>
+        <div>
+            <p>Git</p>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h1>Contact</h1>
+        <p>Ping me 📧</p>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-buttons">
+            <a href="https://github.com/KarthikR-ts" target="_blank">GitHub</a>
+        </div>
+    </section>
+</body>
+
+</html>
